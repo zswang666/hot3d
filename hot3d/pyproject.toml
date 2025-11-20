@@ -12,7 +12,7 @@ dependencies = [
     "projectaria_tools~=1.5.2",
     "requests",
     "vrs",
-    "rerun-sdk~=0.16.1",
+    "rerun-sdk",  # loosen a bit; "rerun-sdk~=0.16.1",
 ]
 
 [build-system]
