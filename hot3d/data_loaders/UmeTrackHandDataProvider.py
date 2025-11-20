@@ -19,11 +19,11 @@ from typing import Any, Dict, List, Optional
 import numpy as np
 import torch
 
-from data_loaders.HandDataProviderBase import HandDataProviderBase
+from hot3d.data_loaders.HandDataProviderBase import HandDataProviderBase
 
-from data_loaders.loader_hand_poses import Handedness, HandPose
+from hot3d.data_loaders.loader_hand_poses import Handedness, HandPose
 
-from data_loaders.umetrack_layer import get_skinning_weights, skin_points
+from hot3d.data_loaders.umetrack_layer import get_skinning_weights, skin_points
 
 
 @dataclass

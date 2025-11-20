@@ -15,8 +15,8 @@
 from typing import Dict, List, Optional
 
 import numpy as np
-from data_loaders.frameset import compute_frameset_for_timestamp
-from data_loaders.io_utils import load_json
+from hot3d.data_loaders.frameset import compute_frameset_for_timestamp
+from hot3d.data_loaders.io_utils import load_json
 from PIL import Image
 from projectaria_tools.core.calibration import (  # @manual
     CameraCalibration,

@@ -17,11 +17,11 @@ from typing import List, Optional
 import numpy as np
 import torch
 
-from data_loaders.HandDataProviderBase import HandDataProviderBase
+from hot3d.data_loaders.HandDataProviderBase import HandDataProviderBase
 
-from data_loaders.loader_hand_poses import Handedness, HandPose, load_mano_shape_params
+from hot3d.data_loaders.loader_hand_poses import Handedness, HandPose, load_mano_shape_params
 
-from data_loaders.pytorch3d_rotation.rotation_conversions import (  # @manual
+from hot3d.data_loaders.pytorch3d_rotation.rotation_conversions import (  # @manual
     matrix_to_axis_angle,
 )
 

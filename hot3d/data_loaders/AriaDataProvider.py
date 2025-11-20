@@ -16,7 +16,7 @@ import os
 from typing import Dict, List, Optional
 
 import numpy as np
-from data_loaders.frameset import compute_frameset_for_timestamp
+from hot3d.data_loaders.frameset import compute_frameset_for_timestamp
 
 from projectaria_tools.core import data_provider  # @manual
 from projectaria_tools.core.calibration import (  # @manual
