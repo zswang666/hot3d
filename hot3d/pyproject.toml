@@ -5,9 +5,7 @@ description = "Hot3D dataset API"
 authors = [
     { name = "Pierre Moulon", email = "pierrem@meta.com" }
 ]
-requires-python = "==3.10"
-
-# PyPI dependencies
+requires-python = ">=3.10"  # loosen a bit; "==3.10"
 dependencies = [
     "torch",  # loosen a bit; "torch~=2.1.2",
     "matplotlib",
@@ -16,3 +14,7 @@ dependencies = [
     "vrs",
     "rerun-sdk~=0.16.1",
 ]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
