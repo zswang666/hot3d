@@ -1,0 +1,18 @@
+[project]
+name = "hot3d"
+version = "0.1.0"
+description = "Hot3D dataset API"
+authors = [
+    { name = "Pierre Moulon", email = "pierrem@meta.com" }
+]
+requires-python = "==3.10"
+
+# PyPI dependencies
+dependencies = [
+    "torch",  # loosen a bit; "torch~=2.1.2",
+    "matplotlib",
+    "projectaria_tools~=1.5.2",
+    "requests",
+    "vrs",
+    "rerun-sdk~=0.16.1",
+]
